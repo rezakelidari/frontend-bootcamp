@@ -1,8 +1,12 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import TopNavbar from "./components/TopNavbar";
 
 function App() {
-  return <div className="App">Hello world</div>;
+  return (
+    <>
+      <TopNavbar />
+    </>
+  );
 }
 
 export default App;
