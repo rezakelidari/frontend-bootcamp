@@ -1,9 +1,9 @@
 import React from "react";
 
-import TopNavbar from "./components/TopNavbar";
-import Header from "./components/Header";
-import Newsletter from "./components/Newsletter";
-import Methods from "./components/Methods";
+import TopNavbar from "./components/TopNavbar/index";
+import Header from "./components/Header/index";
+import Newsletter from "./components/Newsletter/index";
+import Methods from "./components/Methods/index";
 
 function App() {
   return (
