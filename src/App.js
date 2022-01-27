@@ -4,6 +4,7 @@ import TopNavbar from "./components/TopNavbar/index";
 import Header from "./components/Header/index";
 import Newsletter from "./components/Newsletter/index";
 import Methods from "./components/Methods/index";
+import Learn from "./components/Learn";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Newsletter />
       <Methods />
+      <Learn />
     </>
   );
 }
