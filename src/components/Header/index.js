@@ -18,7 +18,7 @@ export default function Header() {
             </p>
             <Button>Start the Enrollment</Button>
           </div>
-          <img src={Banner} className="img-fluid w-50 d-none d-sm-block" />
+          <img src={Banner} className="img-fluid w-50 d-none d-sm-block" alt="Banner" />
         </div>
       </Container>
     </section>
