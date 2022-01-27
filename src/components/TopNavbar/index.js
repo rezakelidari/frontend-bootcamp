@@ -8,12 +8,12 @@ export default function TopNavbar() {
       <Navbar.Brand href="#">Frontend Bootcamp</Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Nav className="me-auto">
+        <Nav>
           <Nav.Link href="#learn">What you'll learn</Nav.Link>
           <Nav.Link href="#instructors">Instructors</Nav.Link>
           <Nav.Link href="#questions">FAQ</Nav.Link>
+          <Nav.Link href="#">Login</Nav.Link>
         </Nav>
-        <Button variant="dark">Login</Button>
       </Navbar.Collapse>
     </Navbar>
   );
