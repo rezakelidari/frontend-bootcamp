@@ -5,6 +5,7 @@ import Header from "./components/Header/index";
 import Newsletter from "./components/Newsletter/index";
 import Methods from "./components/Methods/index";
 import Learn from "./components/Learn";
+import Instructurs from "./components/Instructors";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Newsletter />
       <Methods />
       <Learn />
+      <Instructurs />
     </>
   );
 }
