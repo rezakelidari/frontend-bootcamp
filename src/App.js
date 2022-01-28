@@ -7,6 +7,7 @@ import Methods from "./components/Methods";
 import Learn from "./components/Learn";
 import Instructurs from "./components/Instructors";
 import FAQ from "./components/FAQ";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Learn />
       <Instructurs />
       <FAQ />
+      <Contact />
     </>
   );
 }
