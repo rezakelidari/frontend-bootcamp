@@ -26,7 +26,10 @@ export default function Methods() {
     <Container className="p-5">
       <div className="row">
         {methods.map((method) => (
-          <div className="col-md d-flex flex-column align-items-center">
+          <div
+            className="col-md d-flex flex-column align-items-center"
+            key={method.name}
+          >
             <Card bg="dark" className="text-light">
               <Card.Body className="text-center">
                 <h1 className="mb-0">
