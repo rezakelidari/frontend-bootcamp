@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Accordion } from "react-bootstrap";
+import { Accordion, Container } from "react-bootstrap";
 
 export default function FAQ() {
   const faqs = [
@@ -32,15 +32,20 @@ export default function FAQ() {
   ];
   return (
     <section id="faq" className="p-5">
-      <h2 className="text-center mb-4">Frequently Asked Question</h2>
-      <Accordion defaultActiveKey={null}>
-        {faqs.map((faq) => (
-          <Accordion.Item eventKey={faqs.indexOf(faq)} key={faqs.indexOf(faq)}>
-            <Accordion.Header>{faq.question}</Accordion.Header>
-            <Accordion.Body>{faq.answer}</Accordion.Body>
-          </Accordion.Item>
-        ))}
-      </Accordion>
+      <Container>
+        <h2 className="text-center mb-4">Frequently Asked Question</h2>
+        <Accordion defaultActiveKey={null}>
+          {faqs.map((faq) => (
+            <Accordion.Item
+              eventKey={faqs.indexOf(faq)}
+              key={faqs.indexOf(faq)}
+            >
+              <Accordion.Header>{faq.question}</Accordion.Header>
+              <Accordion.Body>{faq.answer}</Accordion.Body>
+            </Accordion.Item>
+          ))}
+        </Accordion>
+      </Container>
     </section>
   );
 }
