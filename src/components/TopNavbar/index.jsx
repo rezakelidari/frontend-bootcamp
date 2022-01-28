@@ -11,7 +11,7 @@ export default function TopNavbar() {
         <Nav>
           <Nav.Link href="#learn">What you'll learn</Nav.Link>
           <Nav.Link href="#instructors">Instructors</Nav.Link>
-          <Nav.Link href="#questions">FAQ</Nav.Link>
+          <Nav.Link href="#faq">FAQ</Nav.Link>
           <Nav.Link href="#">Login</Nav.Link>
         </Nav>
       </Navbar.Collapse>
