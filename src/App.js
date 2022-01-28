@@ -8,6 +8,7 @@ import Learn from "./components/Learn";
 import Instructurs from "./components/Instructors";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Instructurs />
       <FAQ />
       <Contact />
+      <Footer />
     </>
   );
 }
