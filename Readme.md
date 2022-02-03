@@ -49,6 +49,7 @@ A simple project for a programming botcamp site implemented with React.js and Bo
 - [React.js](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Bootstrap Icons](https://icons.getbootstrap.com/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
 - [Mapbox](https://www.mapbox.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
